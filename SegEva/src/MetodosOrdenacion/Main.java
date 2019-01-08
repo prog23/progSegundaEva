@@ -9,7 +9,7 @@ public class Main extends JFrame {
 		setTitle("Métodos de ordenación");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		getContentPane().add(new Lienzo());
-		pack();h
+		pack();
 	}
 	
 	public static void main(String[] args) {
