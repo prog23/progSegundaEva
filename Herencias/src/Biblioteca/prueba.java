@@ -9,8 +9,11 @@ public class prueba {
 		Revista revista= new Revista("133","Fotogramas", 2019, 2011 );
 		
 		System.out.println(libro);
-		Ejemplar e = libro;		
+		Ejemplar e = libro;
+		((Libro) e).prestar();
 		Prestable p = libro;
+		libro.prestado();
+		p.prestar();
 		
 		
 		System.out.println(revista);
