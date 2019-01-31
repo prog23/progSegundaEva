@@ -15,7 +15,7 @@ public class prueba {
 		libro.prestado();
 		p.prestar();
 		
-		
+		//p
 		System.out.println(revista);
 		Ejemplar r = revista;
 	}
